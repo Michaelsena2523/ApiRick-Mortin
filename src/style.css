@@ -5,4 +5,40 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor{
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.img1{
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.img2{
+    width: 500px;
+    height: 200px;
+    background-image: url(./img/rickMortin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img1:hover{
+    box-shadow: 20px 10px 20px black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
 }
